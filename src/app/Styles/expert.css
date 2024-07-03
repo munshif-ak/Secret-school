@@ -1,0 +1,59 @@
+.expert-title {
+  color: #ff3c00;
+}
+
+.expertimg1 {
+  width: 229px;
+  height: 121px;
+  object-fit: contain;
+}
+
+.expertimg2 {
+  width: 234px;
+  height: 70px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .expertimg1 {
+    width: 200px;
+  }
+
+  .expertimg2 {
+    width: 207px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .expert-title {
+    font-size: 17px;
+  }
+
+  .expertimg1 {
+    width: 170px;
+    height: 80px;
+  }
+
+  .expertimg2 {
+    width: 177px;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .expert-title {
+    font-size: 15px;
+    max-width: 70vw;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .expertimg1 {
+    width: 77px;
+    height: 50px;
+  }
+
+  .expertimg2 {
+    width: 78px;
+    height: 30px;
+  }
+}

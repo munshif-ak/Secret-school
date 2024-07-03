@@ -1,0 +1,55 @@
+.about-title {
+  font-size: 36px;
+  font-weight: bolder;
+  color: white;
+}
+
+.about-para {
+  color: white;
+  max-width: 546px;
+  font-size: 18px;
+  opacity: 70%;
+  line-height: 132%;
+}
+
+.about-underLine {
+  width: 550px;
+  height: 5px;
+  border-bottom: 2px solid darkgrey;
+}
+
+.about-main-container {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+}
+
+@media only screen and (max-width: 1198px) {
+  .about-title {
+    font-size: 30px;
+  }
+
+  .about-para {
+    max-width: 446px;
+    font-size: 17px;
+  }
+
+  .about-underLine {
+    width: 450px;
+  }
+
+  .about-img {
+    width: 490px;
+    height: 600px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .about-main-container {
+    justify-content: center;
+    align-items: space-around;
+    flex-direction: column;
+  }
+}

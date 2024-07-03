@@ -1,0 +1,112 @@
+.contact-message {
+  width: 560px;
+  height: 527px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.contact-textField {
+  width: 230px;
+  height: 50px;
+  border: 1px solid grey;
+  border-radius: 30px;
+  font-size: 17px;
+  margin: 15px;
+}
+
+.contact-textField2 {
+  width: 490px;
+  height: 135px;
+  border-radius: 20px;
+  border: 1px solid grey;
+  font-size: 17px;
+  margin: 20px;
+}
+
+.contact-button {
+  width: 490px;
+  height: 51px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 30px;
+  margin: 30px;
+}
+
+.icon-div {
+  width: 60px;
+  height: 60px;
+  background-color: #ff3c00;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-span1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.contact-span2 {
+  font-size: 16px;
+  max-width: 285px;
+  color: darkgrey;
+  margin-top: 10px;
+}
+
+.contact-container {
+  /* width: 100vw;
+    height: 100vh; */
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 990px) {
+  .contact-message {
+    width: 344px;
+    height: 689px;
+  }
+
+  .contact-textField {
+    width: 308px;
+  }
+
+  .contact-textField2 {
+    width: 300px;
+  }
+
+  .contact-button {
+    width: 290px;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-message {
+    width: 476px;
+    height: 527px;
+  }
+
+  .contact-textField {
+    width: 202px;
+  }
+
+  .contact-textField2 {
+    width: 428px;
+  }
+
+  .contact-button {
+    width: 424px;
+  }
+}
