@@ -115,5 +115,9 @@
 
   .home-cont1 {
     margin-bottom: 0px;
+    margin-left: 15px;
+  }
+  .home-h1 {
+    font-size: 30px;
   }
 }

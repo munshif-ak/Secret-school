@@ -88,25 +88,8 @@
   }
 }
 
-@media only screen and (max-width: 766px) {
+ @media only screen and (max-width: 766px) {
   .contact-container {
     flex-direction: column;
   }
-
-  .contact-message {
-    width: 476px;
-    height: 527px;
-  }
-
-  .contact-textField {
-    width: 202px;
-  }
-
-  .contact-textField2 {
-    width: 428px;
-  }
-
-  .contact-button {
-    width: 424px;
-  }
-}
+} 
