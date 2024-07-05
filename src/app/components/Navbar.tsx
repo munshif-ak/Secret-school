@@ -1,8 +1,7 @@
 import React from "react";
 import Link from "next/link";
-import "../Styles/NavBar.css";
+import "../Styles/navBar.css";
 import ModerDrawer from "./ModerDrawer";
-import path from "path";
 
 function Navbar() {
   const nanLinks = [
